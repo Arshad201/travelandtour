@@ -1,11 +1,18 @@
 import React from 'react';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './Component/Navbar/Navbar.js';
+import Footer from './Component/Footer/Footer.js';
 
 const App = () => {
   return (
-    <div>
-      App
-    </div>
+    <>
+    <Navbar/>
+      <Routes>
+        <Route exact path='/' element={<h1>Hello Mushafiya</h1>}/>
+      </Routes>
+    <Footer/>
+    </>
   )
 }
 
