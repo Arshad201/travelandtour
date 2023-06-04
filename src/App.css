@@ -13,10 +13,10 @@
 html{
     font-size: 62.5%;
     background-color: var(--white);
-    width: 100%;
 }
 
 body{
+    max-width: 100%;
     overflow-x: hidden;
 }
 
