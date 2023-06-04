@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: poppins;
+  }
+
+:root{
+    --black : black;
+    --white : white;
+}
+html{
+    font-size: 62.5%;
+    background-color: var(--white);
+}
+
+@media only screen and (max-width : 1200px){
+    html{
+        font-size: 58.5%;
+    }   
+}
