@@ -9,7 +9,7 @@ const App = () => {
     <>
     <Navbar/>
       <Routes>
-        <Route exact path='/' element={<h1>Hello Mushafiya</h1>}/>
+        <Route exact path='/' element={<h1>Hello Mushafiya, How are you?</h1>}/>
       </Routes>
     <Footer/>
     </>
