@@ -1,12 +1,10 @@
 
 .nav-container{
     width:100%;
-    /* background-color:var(--white); */
-    /* background: rgb(63,55,236);
-    background: linear-gradient(104deg, rgba(63,55,236,0.014425753211440795) 53%, rgba(45,253,251,1) 100%);  */
     background: rgb(45,253,251);
-    background: linear-gradient(104deg, rgba(45,253,251,0.5326330361246061) 0%, rgba(255,255,255,1) 57%); 
-    border:2px solid green;
+    background: linear-gradient(104deg, #2dfdfb88 0%, rgba(255,255,255,1) 57%);
+    box-shadow: 0px 0px 10px grey; 
+    /* border:2px solid green; */
  
     
 }
@@ -17,10 +15,10 @@
     margin: 0rem auto;
     /* border: 1px solid red; */
     display: flex;
-    border:2px solid red;
+    /* border:2px solid red; */
     padding-block: 3.5rem;
     padding-inline:2rem;
-  
+
     align-items: center;
     justify-content: space-between;
     gap: 5%;
