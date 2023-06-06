@@ -11,6 +11,7 @@ const Navbar = () => {
         setShowMenu(!showMenu);
     }
   return (
+    <div className='nav-container'>
     <header className='header'>
         <Link className="logo">
             <MdOutlineTravelExplore className='logoIcon'/>
@@ -30,6 +31,7 @@ const Navbar = () => {
         </nav>
         <BsFillGrid1X2Fill className='navMenuIcon' onClick={handleMobileMenu}/>
     </header>
+    </div>
   )
 }
 
