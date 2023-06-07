@@ -12,6 +12,9 @@
     --textBlue :  #0386BC;
     --textGrey : grey;
     --inputBg : rgb(238, 237, 237);
+    --facebook : #0a58f3;
+    --instagram : #E4405F;
+    --twitter : #00acee;
 }
 html{
     font-size: 62.5%;
