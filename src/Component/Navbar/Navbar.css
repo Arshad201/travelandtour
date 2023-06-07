@@ -139,11 +139,13 @@ nav, nav ul{
     .mobileMenuOff{
         transform: translateX(200%);
         transition: .5s ease-in-out;
+      
     }
     
     .mobileMenuOnn{
         transform: translateX(62%);
         transition: .5s ease-in-out;
+       
     }
     nav{
         align-self: flex-start;
@@ -156,7 +158,8 @@ nav, nav ul{
         border-radius: 8px;
         box-shadow: 0px 0px 5px var(--black);
         background: rgb(252,249,249);
-        background: linear-gradient(0deg, rgba(252,249,249,0.5606442406063988) 45%, rgba(45,253,251,1) 100%); 
+        background: linear-gradient(0deg, rgba(252,249,249,0.5606442406063988) 45%, rgba(45,253,251,1) 100%);
+        z-index:10; 
        
     }
 

@@ -10,6 +10,8 @@
     --black : black;
     --white : white;
     --textBlue :  #0386BC;
+    --textGrey : grey;
+    --inputBg : rgb(238, 237, 237);
 }
 html{
     font-size: 62.5%;
