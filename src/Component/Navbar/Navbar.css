@@ -3,6 +3,10 @@
     background: rgb(28, 230, 228);
     background: linear-gradient(308deg, rgba(28, 230, 228, 1) 5%, rgba(255, 255, 255, 1) 53%);
     box-shadow: 0px 0px 10px grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .header {
@@ -70,8 +74,6 @@ nav ul {
 .navBtn {
     text-decoration: none;
     color: var(--white);
-    background: rgb(13, 229, 238);
-    background: linear-gradient(90deg, rgba(13, 229, 238, 0.9724089464887518) 0%, rgba(0, 133, 255, 1) 97%);
     padding: 1.2rem 2.5rem;
     border-radius: 10rem;
     font-weight: 600;
@@ -80,11 +82,6 @@ nav ul {
     transition: all 1s;
 }
 
-.navBtn:hover {
-
-    background: blue;
-
-}
 
 /* Mobile Menu Icon */
 .navMenuIcon {

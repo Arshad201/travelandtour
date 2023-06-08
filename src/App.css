@@ -15,6 +15,7 @@
     --facebook : #0a58f3;
     --instagram : #E4405F;
     --twitter : #00acee;
+    --priceColor : green;
 }
 html{
     font-size: 62.5%;
@@ -24,6 +25,22 @@ html{
 html, body{
     max-width: 100vw;
     overflow-x: hidden;
+    font-family: 'poppins', 'sans-serif';
+}
+.btn{
+    background: rgb(13, 229, 238);
+    background: linear-gradient(90deg, rgba(13, 229, 238, 0.9724089464887518) 0%, rgba(0, 133, 255, 1) 97%);
+    text-decoration: none;
+    color: var(--white);
+    padding: 1.2rem 2.5rem;
+    border-radius: 10rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: .02rem;
+    transition: all 1s;
+}
+.btn:hover{
+    background: blue;
 }
 
 @media only screen and (max-width : 1200px){

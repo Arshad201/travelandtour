@@ -27,7 +27,7 @@ const Navbar = () => {
                 <li><Link className='navLink'>News</Link></li>
                 <li><Link className='navLink'>Contact</Link></li>
             </ul>
-            <Link className="navBtn">BOOK NOW</Link>
+            <Link className="navBtn btn">BOOK NOW</Link>
         </nav>
         <BsFillGrid1X2Fill className='navMenuIcon' onClick={handleMobileMenu}/>
     </header>

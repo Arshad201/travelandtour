@@ -1,16 +1,36 @@
+
+.hero-container{
+    /* margin-top:20px; */
+    height:100vh;
+    z-index:2;
+    position:relative;
+    margin-top: 50px;
+}
 .video-container{
-    position: absolute;
-    top: 11%;
+    /* position: absolute;
+    top: 11%; */
+    position:relative;
     width: 100vw;
-    height: 85%; 
+    height:100%;
+    /* height: 80vw;  */
     overflow: hidden;
     margin-bottom:20rem;
+  
+    background: rgb(255,255,255);
+    background: linear-gradient(7deg, rgba(255,255,255,1) 36%, rgba(28,230,228,1) 53%); 
 
 }
 .video{
+
+    object-fit: cover;
+
  
-    width:100%;
-    max-height: fit-content;
+    /* width:max-content;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    max-height: fit-content; */
  /* width:100vw;
     height:100%; */
     /* max-width: fit-content;
@@ -18,14 +38,16 @@
     max-height: 100%; */
     /* left:50%; */
     /* transform: translate(-50%,-50%); */
-    z-index:1;
+    /* z-index:1; */
 }
 
 .hero-content{
 
+
     z-index:2;
     width:80%;
-    margin-top:20px;
+    /* margin-top:20px; */
+    top:10%;
     margin-left:30px;
     position:absolute;
     padding-block:20px;
@@ -106,12 +128,15 @@ input{
    padding-block: 8px;
    border-radius:50px;
    color:white;
-   background: rgb(13,229,238);
-   background: linear-gradient(90deg, rgba(13,229,238,0.9724089464887518) 0%, rgba(0,133,255,1) 97%);
    position:absolute;
    bottom: -5%;
-   left:25%
+   left:25%;
+   transition: all 1s;
    
+}
+.filter:hover{
+    background: blue;
+    cursor:pointer;
 }
 .filter-text{
     font-size:1.5rem;
@@ -155,11 +180,25 @@ input{
         object-fit: cover;
     }
 
-    
-
-    
-  
 }
+
+@media only screen and (max-width:412px){
+   .icon-group{
+    margin-top:20px;
+   }
+}
+
+@media only screen and (max-width:295px){
+    .hero-content{
+        top:5%;
+
+    }
+    .filter{
+        left:10%;
+    }
+}
+
+
 @media only screen and (max-width:764px){
     .video-container{
         height:100%;

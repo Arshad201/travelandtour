@@ -1,0 +1,73 @@
+
+
+.featuredDestination-container{
+    margin-top:50px;
+    border:2px solid purple;
+    width:85%;
+    margin-inline:auto;
+    display: flex; 
+    flex-direction: column;
+
+}
+
+.featured-heading{
+    font-size:2.5rem;
+    font-weight:600;
+
+}
+
+.highlight{
+    text-decoration:underline;
+    font-weight:700;
+    text-decoration-color:var( --textBlue);
+}
+
+.Card-container{
+    border:2px solid red;
+    display: grid;
+    grid-template-columns:repeat(3,350px);
+    column-gap: 2.5rem;
+    row-gap:4rem;
+    padding-block:30px;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+    .featuredDestination-container{
+        width:90%;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .featuredDestination-container{
+        width:95%;
+  
+    
+
+    }
+}
+
+
+
+
+
+
+

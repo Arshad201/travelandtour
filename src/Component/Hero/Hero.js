@@ -1,5 +1,5 @@
 import React from 'react'
-import video from '../../assets/ocean.mp4'
+import video from '../../assets/oceans2.mp4'
 import './Hero.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -82,7 +82,7 @@ const Hero = () => {
                         />
                     </label>
 
-                    <div className='filter'>
+                    <div className='filter btn'>
                          <FaFilter className='filter-icon'></FaFilter>
                          <p className='filter-text'>More Filters</p>
                     </div>
