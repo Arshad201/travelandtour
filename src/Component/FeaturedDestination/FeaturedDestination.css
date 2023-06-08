@@ -23,7 +23,6 @@
 }
 
 .Card-container{
-    border:2px solid red;
     display: grid;
     grid-template-columns:repeat(3,350px);
     column-gap: 2.5rem;
@@ -37,33 +36,72 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1320px){
     .featuredDestination-container{
         width:90%;
     }
 }
-
-@media only screen and (max-width:640px){
+@media only screen and (max-width:1280px){
     .featuredDestination-container{
         width:95%;
-  
-    
+    }
+}
+@media only screen and (max-width:1170px){
+    .Card-container{
+        grid-template-columns:repeat(3,auto);
+    }
+   
+}
+@media only screen and (max-width:1024px){
+    .featuredDestination-container{
+        width:98%;
+    }
+}
+@media only screen and (max-width:930px){
+    .Card-container{
+        column-gap: 1.6rem;
+    }
+}
+
+@media only screen and (max-width:850px){
+    .Card-container{
+        grid-template-columns:repeat(2,350px);
+        column-gap: 2.5rem;
+    }
+    .featured-heading{
+        text-align: center;
+    }
+   
+}
+@media only screen and (max-width:764px){
+    .Card-container{
+        grid-template-columns:repeat(2,auto);
+        padding-inline:10px;
+        column-gap: 1.6rem;
+    }
+   
+}
+@media only screen and (max-width:640px){
+    .Card-container{
+        grid-template-columns:repeat(1,350px);
+    }
+}
+@media only screen and (max-width:430px){
+    .Card-container{
+        grid-template-columns:repeat(1,320px);
+        padding-inline:20px;
+    }
+}
+@media only screen and (max-width:350px){
+    .Card-container{
+        grid-template-columns:repeat(1,auto);
 
     }
 }
+
+
+
+
 
 
 

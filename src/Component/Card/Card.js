@@ -7,7 +7,7 @@ import { GrLocation } from 'react-icons/gr'
 const Card = () => {
   return (
     <div className='card'>
-        <img src={tourImg} alt="tour" />
+        <img src={tourImg} alt="tour" className='tour-img' />
         <div className='tour-content'>
         <div className='name-container'>
             <h1>Cherry Blossom</h1>

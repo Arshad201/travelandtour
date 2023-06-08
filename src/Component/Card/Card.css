@@ -1,11 +1,23 @@
 .card{
-    border:2px solid green;
     border-radius:8px;
     overflow:hidden;
     padding-bottom:20px;
+    background: rgb(28,230,228);
+    background: linear-gradient(309deg, rgba(28,230,228,1) 0%, rgba(255,255,255,1) 21%); 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all .5s;
+}
+.card:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    scale:1.03;
+    cursor: pointer;
+}
+.tour-img{
+    object-fit: cover;
 }
 .tour-content{
-    margin-top:20px;
+    margin-top:10px;
     padding-inline:20px;
 }
 .name-container{
@@ -36,3 +48,5 @@
 .detail-icon{
     margin-top:3px;
 }
+
+
