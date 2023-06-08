@@ -1,6 +1,7 @@
 import React from 'react'
 import './FeaturedDestination.css'
 import Card from '../Card/Card'
+import Img from '../../assets/cherry.jpg'
 
 const FeaturedDestination = () => {
 
@@ -11,7 +12,8 @@ const FeaturedDestination = () => {
        <div className='Card-container'>
         
         {
-           array.map((tour)=>(
+           array.map((tour,index)=>(
+
             <Card></Card>
            ))
         }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Card.css'
-import tourImg from '../../assets/cherry.jpg'
+import tourImg from '../../assets/venice.jpg'
 import {BiDetail} from 'react-icons/bi'
 import { GrLocation } from 'react-icons/gr'
 
@@ -10,11 +10,11 @@ const Card = () => {
         <img src={tourImg} alt="tour" className='tour-img' />
         <div className='tour-content'>
         <div className='name-container'>
-            <h1>Cherry Blossom</h1>
-            <h2 className='cityName'> <span><GrLocation></GrLocation></span> Japan</h2>
+            <h1>Venice</h1>
+            <h2 className='cityName'> <span><GrLocation></GrLocation></span> Italy</h2>
         </div>
       
-        <p className='tour-price'>$700</p>
+        <p className='tour-price'>$850</p>
         <p className='tour-desc'>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, sint iste porro est nesciunt fuga consequatur incidunt quibusdam, voluptatum at vitae sequi dolore ducimus beatae sit dicta delectus. Ad, culpa.
         </p>

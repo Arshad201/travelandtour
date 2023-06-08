@@ -42,9 +42,62 @@ html, body{
 .btn:hover{
     background: blue;
 }
+.Card-container{
+    display: grid;
+    grid-template-columns:repeat(3,350px);
+    column-gap: 2.5rem;
+    row-gap:4rem;
+    padding-block:30px;
+    justify-content: center;
+
+}
+
 
 @media only screen and (max-width : 1200px){
     html{
         font-size: 58.5%;
     }   
+}
+@media only screen and (max-width:1170px){
+    .Card-container{
+        grid-template-columns:repeat(3,auto);
+    }
+   
+}
+@media only screen and (max-width:930px){
+    .Card-container{
+        column-gap: 1.6rem;
+    }
+}
+@media only screen and (max-width:850px){
+    .Card-container{
+        grid-template-columns:repeat(2,350px);
+        column-gap: 2.5rem;
+    }
+   
+}
+@media only screen and (max-width:764px){
+    .Card-container{
+        grid-template-columns:repeat(2,auto);
+        padding-inline:10px;
+        column-gap: 1.6rem;
+    }
+   
+}
+@media only screen and (max-width:640px){
+    .Card-container{
+        grid-template-columns:repeat(1,350px);
+    }
+}
+@media only screen and (max-width:430px){
+    .Card-container{
+        grid-template-columns:repeat(1,320px);
+        padding-inline:20px;
+    }
+}
+@media only screen and (max-width:350px){
+    .Card-container{
+        grid-template-columns:repeat(1,auto);
+
+    }
 }
