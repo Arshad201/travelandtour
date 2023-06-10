@@ -1,0 +1,77 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* content */
+  .swiper-slide {
+    /* text-align: center; */
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+  .testimonal-container{
+    margin-top:40px;
+    width:80%;
+    /* border:2px solid red ; */
+    margin-inline:auto;
+    padding-block:20px;
+  }
+
+  .header-container{
+    display:flex ;
+    flex-direction:column;
+    align-items: center;
+    gap:8px;
+    margin-bottom:50px;
+  }
+
+  .testimonal-heading{
+    font-size:2.8rem;
+   
+  }
+  .heaidng-underline{
+    width:150px;
+    height:3px;
+    background: var( --textBlue);
+    text-align: center;
+  }
+
+  .testimonal-swiper{
+    /* border:2px solid green; */
+    padding-block:20px;
+   
+    z-index: 1;
+  }

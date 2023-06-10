@@ -1,0 +1,53 @@
+.Tcard{
+    padding-top:50px;
+    padding-bottom:30px;
+    padding-inline:20px;
+    background: rgb(28,230,228);
+    background: linear-gradient(309deg, rgba(28,230,228,1) 0%, rgba(255,255,255,1) 21%); 
+    border-radius:4px;
+    position:relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all .5s;
+    
+}
+.Tcard:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    scale: 1.05;
+}
+.Timg-bg{
+    background-color: var(--textBlue);
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    position:absolute;
+    top:4%;
+    left:36%;
+  
+}
+.T-image{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    position:absolute;
+    top:6%;
+    left:40%;
+
+    
+}
+.T-desc{
+    margin-top:60px;
+}
+.T-desc .desc{
+    font-size: 1.5rem;
+    margin-bottom:10px;
+}
+.quoteIcon{
+    padding-inline:8px;
+    color:var(--textBlue);
+}
+
+.T-name{
+    font-size:2rem;
+    font-weight:600;
+    /* color:var(--textGrey); */
+}
