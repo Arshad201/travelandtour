@@ -1,7 +1,7 @@
 import React from 'react'
 import './FeaturedDestination.css'
 import Card from '../Card/Card'
-import Img from '../../assets/cherry.jpg'
+
 
 const FeaturedDestination = () => {
 
