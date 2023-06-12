@@ -2,6 +2,10 @@ import React from 'react'
 import { useState } from 'react'
 import './Footer.css'
 import video from '../../assets/shortOcean.mp4'
+import video2 from '../../assets/mediumOcean.mp4'
+import video3 from '../../assets/longOcean.mp4'
+import video4 from '../../assets/ocean.mp4'
+
 import { BsSend } from 'react-icons/bs'
 import { ImFacebook } from 'react-icons/im'
 import { FaInstagramSquare } from 'react-icons/fa'
@@ -28,6 +32,9 @@ const Footer = () => {
     <div className='footer-container'>
       <div className='footer-video-container'>
         <video src={video} type="video/mp4" muted autoPlay loop className='footer-video'></video>
+        <video src={video2} type="video/mp4" muted autoPlay loop className='footer-video2'></video>
+        <video src={video3} type="video/mp4" muted autoPlay loop className='footer-video3'></video>
+        <video src={video4} type="video/mp4" muted autoPlay loop className='footer-video4'></video>
       </div>
 
       <div className='top-part'>
@@ -73,58 +80,40 @@ const Footer = () => {
 
             </div>
           </div>
-          <div className='upper2'>
-            <h3 className='upper-head'>OUR AGENCY</h3>
-            <div className='upper-content'>
-              <p>Services</p>
-              <p>Insurance</p>
-              <p>Agency</p>
-              <p>Toursim</p>
-              <p>Payment</p>
+          
+            <div className='upper2'>
+              <h3 className='upper-head'>OUR AGENCY</h3>
+              <div className='upper-content'>
+                <p>Services</p>
+                <p>Insurance</p>
+                <p>Agency</p>
+                <p>Toursim</p>
+                <p>Payment</p>
+              </div>
             </div>
-          </div>
-          <div className='upper3'>
-            <h3 className='upper-head'>PARTNERS</h3>
-            <div className='upper-content'>
-              <p>Booking</p>
-              <p>RentalCar</p>
-              <p>HostelWorld</p>
-              <p>Trivago</p>
-              <p>TripAdvisor</p>
+            <div className='upper3'>
+              <h3 className='upper-head'>PARTNERS</h3>
+              <div className='upper-content'>
+                <p>Booking</p>
+                <p>RentalCar</p>
+                <p>HostelWorld</p>
+                <p>Trivago</p>
+                <p>TripAdvisor</p>
+              </div>
             </div>
-          </div>
-          <div className='upper4'>
-            <h3 className='upper-head'>LAST MINUTES</h3>
-            <div className='upper-content'>
-              <p> London</p>
-              <p>California</p>
-              <p>Indonesia</p>
-              <p>Europe</p>
-              <p>Paris</p>
+            <div className='upper4'>
+              <h3 className='upper-head'>LAST MINUTES</h3>
+              <div className='upper-content'>
+                <p> London</p>
+                <p>California</p>
+                <p>Indonesia</p>
+                <p>Europe</p>
+                <p>Paris</p>
+              </div>
             </div>
-          </div>
+         
 
-          {/* //---------------------------------------- */}
-          <div className='top-part top-new'>
-            <div className='top-content1'>
-              <p className='content1-para'> KEEP IN TOUCH</p>
-              <h2 className='content1-head'>Travel with us</h2>
-            </div>
-            <div className='top-content2'>
-              <input type="email"
-                name='email'
-                value={emailData.email}
-                onChange={changeHandler}
-                id='email'
-                placeholder='Enter Email Address'
-                className='foot-email'
-              />
-              <button className='btn email-btn'>
-                <p>SEND</p>
-                <span><BsSend></BsSend></span>
-              </button>
-            </div>
-          </div>
+
 
         </div>
         <div className='bottom-lower'>
