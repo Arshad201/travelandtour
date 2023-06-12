@@ -6,6 +6,7 @@
     position:relative;
     margin-top: 50px;
 }
+
 .video-container{
     /* position: absolute;
     top: 11%; */
@@ -20,26 +21,12 @@
     background: linear-gradient(7deg, rgba(255,255,255,1) 36%, rgba(28,230,228,1) 53%); 
 
 }
+
 .video{
 
     object-fit: cover;
-
- 
-    /* width:max-content;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    max-height: fit-content; */
- /* width:100vw;
-    height:100%; */
-    /* max-width: fit-content;
-    width:full;
-    max-height: 100%; */
-    /* left:50%; */
-    /* transform: translate(-50%,-50%); */
-    /* z-index:1; */
 }
+
 
 .hero-content{
 

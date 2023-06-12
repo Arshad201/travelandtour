@@ -10,7 +10,9 @@
     --black : black;
     --white : white;
     --textBlue :  #0386BC;
+    --textDarkBlue :  #03aff8;
     --textGrey : grey;
+    --textlightGrey : rgb(153, 152, 152);
     --inputBg : rgb(238, 237, 237);
     --facebook : #0a58f3;
     --instagram : #E4405F;
@@ -51,6 +53,7 @@ html, body{
     justify-content: center;
 
 }
+
 
 
 @media only screen and (max-width : 1200px){
